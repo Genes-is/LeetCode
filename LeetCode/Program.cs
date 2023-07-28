@@ -5,8 +5,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        var solution = new LengthOfLongestSubstringSolution();
+        var solution = new LengthOfLongestSubstring();
 
-        solution.LengthOfLongestSubstring("abcabcbb");
+        solution.Handle("abcabcbb");
     }
 }

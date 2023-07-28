@@ -1,8 +1,9 @@
 ﻿namespace LeetCode.Easy;
 
-internal class PlusOneSolution
+// 66 Plus One
+internal class PlusOne
 {
-    public int[] PlusOne(int[] digits)
+    public int[] Handle(int[] digits)
     {
         for (int i = digits.Length - 1; i >= 0; i--)
         {

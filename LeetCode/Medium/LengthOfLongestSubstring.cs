@@ -1,8 +1,9 @@
 ﻿namespace LeetCode.Medium;
 
-internal class LengthOfLongestSubstringSolution
+// 3 Longest Substring Without Repeating Characters
+internal class LengthOfLongestSubstring
 {
-    public int LengthOfLongestSubstring(string s)
+    public int Handle(string s)
     {
         var usedLetters = new Dictionary<char, int>();
         int maxSequenceCount = 0;
